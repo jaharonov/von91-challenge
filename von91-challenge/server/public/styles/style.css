@@ -182,6 +182,7 @@ hr {
 
 #foottext {
     padding-left: 8%;
+    white-space: nowrap;
 }
 
 #footsocial {
