@@ -28,18 +28,24 @@
     <body ng-app="myApp" ng-controller="MaterialController as mc">
     
         <div id="main" flex="100"> 
-         <div id="nav" layout="row" layout-align="space-between center">
+        <div class="wrap">
+         <header  layout="row" layout-align="space-between center">
 
              <div><a href="https://von91.com/"><img id="logo" src="/assets/von91-circle.png"></a></div>
-           <div><md-button class="navBut" href="https://von91.com/were-hiring/" target="_blank">ARTICLE</md-button>
-            <md-button class="navBut"href="https://von91.com/contact/" target="_blank">CONTACT</md-button></div>
-         </div>
+            <nav>
+                <ul>
+                    <li><md-button class="navBut" href="https://von91.com/were-hiring/" target="_blank">ARTICLE</md-button></li>
+                    <li><md-button class="navBut" href="https://von91.com/contact/" target="_blank">CONTACT</md-button></li>
+                </ul>
+            </nav>
+           </header>
 
 <div class="container">
-<div class="siema mySiema">
-    <img class="carousel" src="/assets/firstimage.png">
-    <img class="carousel" src="/assets/mensweardog.png">
-    <img class="carousel" src="/assets/chiwig.jpg">
+    
+        <div class="siema mySiema">
+            <img class="carousel" src="/assets/firstimage.png">
+            <img class="carousel" src="/assets/mensweardog.png">
+            <img class="carousel" src="/assets/chiwig.jpg">
    
 </div>
 <div id="sliderOver" layout="row" layout-align="space-between center">
@@ -49,7 +55,8 @@
 </div>
             
      </div>
-     <div class="content">
+    </div>
+     <article>
          <p>Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. Surround yourself
         with angels. The key to more success is to have a lot of pillows. The key to more success is to get a massage once a week,
         very important, major key, cloth talk.
@@ -74,7 +81,7 @@
         want you to jetski, they don’t want you to smile. Special cloth alert. The key to success is to keep your head above the
         water, never give up. Special cloth alert. Surround yourself with angels. You smart, you loyal, you a genius squeaky clean.
         You smart, you loyal, you a genius. </p>
-    </div>
+    </article>
     
     
      <footer>
@@ -90,9 +97,9 @@
                  </div>
             <div class="footdivs" id="footsocial" layout="row" layout-align="space-between center">
                 
-                <a target="_blank" href="https://www.facebook.com/v91co/"><img class="sociallogos" src="/assets/facebook2.png"></a>
-                <a target="_blank" href="https://www.instagram.com/von91/?hl=en"><img class="sociallogos" src="/assets/instagram.png"></a>
-                <a target="_blank" href="https://twitter.com/v91co?lang=en"><img class="sociallogos" src="/assets/twitter.png" target="_blank"></a>
+                <a href="https://www.facebook.com/v91co/"><img class="sociallogos" src="/assets/facebook2.png" target="_blank"></a>
+                <a href="https://www.instagram.com/von91/?hl=en"><img class="sociallogos" src="/assets/instagram.png" target="_blank"></a>
+                <a href="https://twitter.com/v91co?lang=en"><img class="sociallogos" src="/assets/twitter.png" target="_blank"></a>
                 
             </div>
        </div>  
